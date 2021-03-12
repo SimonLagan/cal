@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background: #f1953c;
+}
+
+body div.mical{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: 0 auto;
+    background: darkcyan;
+    border-radius: 10px;
+
+}
+
+div input[type ='button'], button{
+   width: 40px;
+   height: 40px;
+   margin: 3px 0;
+}
+
+
+div input[type = 'text']{
+    height: 40px;
+    width: 200px;
+    background-color:honeydew;
+    color: black;
+    padding: 12px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid gray;
+
+
+}
+
+
+div.resultado input,div.resultado button{
+    height: 40px;
+    width: 85px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+div.resultado button{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+
+}
+
+div.resultado input{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+
+}
+
+
+#suma, #resta, #multi, #division, #porcetaje{
+    background-color: palevioletred;
+    color: papayawhip;
+    border: 1px solid palevioletred;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
